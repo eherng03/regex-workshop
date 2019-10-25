@@ -1,0 +1,2 @@
+(?i)Hola
+(?i)aqui\svan\slas\sregex
