@@ -1,8 +1,6 @@
 # regex-workshop
 
-Proyecto:
-java
-carpeta input y carpeta regex pasadas como argumentos de la ejecución
+Como argumentos de la ejecución se deberán pasar, primero la carpeta que contenga los archivos de texto, y luego la carpeta con los archivos de regex.
 
 
 #!/bin/bash
@@ -16,5 +14,4 @@ else
     /usr/bin/java  -classpath .:jars/*.jar -Xmx300m src.<MAIN_CLASS> $1 $2
 fi
 
-output: Tu texto contiene bloques sensibles!!
-todos los hits de las regex:...
+
