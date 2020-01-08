@@ -15,7 +15,8 @@ public class Main {
                 inputPath = args[0];
                 regexPath = args[1];
             }else{
-                //Default folders
+                inputPath = "/resources/inputPath/";
+                regexPath = "/resources/regexPath/";
             }
         try {
             rs = new RegexApplier(regexPath);
