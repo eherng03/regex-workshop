@@ -1,4 +1,4 @@
-import utils.RegexApplier;
+package regex;
 
 import java.io.*;
 
